@@ -22,6 +22,7 @@ public class VerifyRequest extends RequestBase {
 
     @Override
     protected String getResult(String xmlResponse) {
+    	System.out.println(xmlResponse);
         Document doc = convertStringToXMLDocument(xmlResponse);
 
         //Verify XML document is build correctly

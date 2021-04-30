@@ -15,7 +15,7 @@ import java.util.Base64;
 
 abstract class RequestBase {
 
-    private String xml;
+    public String xml;
     private final String url;
     private final String SOAPAction;
 

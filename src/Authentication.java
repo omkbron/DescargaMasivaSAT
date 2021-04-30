@@ -109,5 +109,6 @@ public class Authentication extends RequestBase {
                 "<Autentica xmlns=\"http://DescargaMasivaTerceros.gob.mx\"/>" +
                 "</s:Body>" +
                 "</s:Envelope>");
+        System.out.println(this.xml);
     }
 }
